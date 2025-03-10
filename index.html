@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketch Board</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; }
+        canvas { border: 1.5px solid #222; cursor: crosshair; }
+    </style>
+</head>
+<body>
+    <h1>Sketch Board</h1>
+    <canvas id="boardCanvas" width="800" height="600"></canvas>
+    <br>
+    <label for="penColor">Pick a Color:</label>
+    <input type="color" id="penColor" value="#000000">
+    <button id="wipeBoard">Clear Canvas</button>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
